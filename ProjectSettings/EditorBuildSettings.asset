@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/ProjectFolder/Test/Doets/DoetsTestScene.unity
+    path: Assets/ProjectFolder/TestStuff/Doets/DoetsTestScene.unity
     guid: 26828403e4843224fa67e06867fe3cb1
   - enabled: 1
     path: Assets/Oculus/Interaction/Samples/Scenes/Examples/HandGrabExamples.unity
