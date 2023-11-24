@@ -6,7 +6,7 @@
             "id": "463c9c6a-44d8-42b7-88fd-f4a9e01c8020",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "Movement",
                     "type": "Button",
                     "id": "67663c91-394e-4ec5-80de-bd4177c89e27",
                     "expectedControlType": "Button",
@@ -19,11 +19,11 @@
                 {
                     "name": "",
                     "id": "1a08cf50-f461-471c-9413-d311eb72571b",
-                    "path": "",
+                    "path": "<AndroidJoystick>/trigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
