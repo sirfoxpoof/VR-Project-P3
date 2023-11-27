@@ -2,14 +2,14 @@
     "name": "InputAtionMap",
     "maps": [
         {
-            "name": "VRActions",
+            "name": "Player",
             "id": "463c9c6a-44d8-42b7-88fd-f4a9e01c8020",
             "actions": [
                 {
                     "name": "Movement",
-                    "type": "Button",
+                    "type": "PassThrough",
                     "id": "67663c91-394e-4ec5-80de-bd4177c89e27",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -17,9 +17,64 @@
             ],
             "bindings": [
                 {
+                    "name": "2D Vector",
+                    "id": "7d2047b5-8fdc-4542-a9bd-353f98b0b66f",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "1ca2c89b-5975-4bfe-9387-ed3e3665880b",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "16e1a4b4-55f2-448d-98b7-093a0703fb5f",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "68ed7a0a-f41e-4079-9531-e73868c35621",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "8d0e78c3-fe00-4a4b-83b0-8dcfdc8e05f8",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "",
-                    "id": "1a08cf50-f461-471c-9413-d311eb72571b",
-                    "path": "<AndroidJoystick>/trigger",
+                    "id": "116825f5-5e78-4166-9523-e6611c794586",
+                    "path": "<XRController>{LeftHand}/thumbstick",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
