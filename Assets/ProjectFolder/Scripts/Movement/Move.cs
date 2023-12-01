@@ -1,64 +1,68 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
 
 public class Move : MonoBehaviour
 {
     private InputAtionMap inputActionMap;
-    public Rigidbody rb;
-    public GameObject cameraHolder;
-    public float speed, sprint, sensitivity, jumpHight;
+    public Transform cam;
+    public float speed, sensitivity, rotateUpdate;
 
+    private Vector2 move;
 
-    private Vector2 move, look;
+    private InputAction moove, rotate; //naam is prachtig
 
-    private InputAction movew, rotate;
+    float time;
 
-    private float x, y;
 
     private void Awake()
     {
         inputActionMap = new InputAtionMap();
-        rb = GetComponent<Rigidbody>();
     }
 
     private void OnEnable()
     {
-        movew = inputActionMap.Player.Movement;
-        movew.Enable();
-
+        moove = inputActionMap.Player.Movement;
+        moove.Enable();
         rotate = inputActionMap.Player.Rotate;
         rotate.Enable();
     }
 
     private void OnDisable()
     {
-        movew.Disable();
+        moove.Disable();
         rotate.Disable();
     }
 
     private void FixedUpdate()
     {
         Walk();
-        Rotate();
+        Rotation(rotate.ReadValue<Vector2>());
     }
     private void Walk()
     {
-        move = movew.ReadValue<Vector2>() * (speed * Time.deltaTime);
+        move = moove.ReadValue<Vector2>();
 
-        transform.Translate(move.x, 0, move.y);
+        Vector3 _moveDirection = (cam.transform.forward * move.y + cam.transform.right * move.x) * Time.deltaTime;
+
+        transform.position += _moveDirection * speed;
     }
 
-    private void Rotate()
+    void Rotation(Vector2 _moveV2)
     {
-        look = rotate.ReadValue<Vector2>();
+        time += Time.deltaTime;
 
-        x += look.x * sensitivity * Time.deltaTime;
-        y -= look.y * sensitivity * Time.deltaTime;
+        if (_moveV2.y != 0 || _moveV2.x != 0)
+        {
+            if (time > rotateUpdate)
+            {
+                transform.Rotate(new Vector3(0, _moveV2.x, 0) * sensitivity);
 
-        transform.localRotation = Quaternion.Euler(0, x, 0 * Time.deltaTime);
-        cameraHolder.transform.localRotation = Quaternion.Euler(y, 0, 0 * Time.deltaTime);
+                time = 0;
+            }
+        }
     }
 }
