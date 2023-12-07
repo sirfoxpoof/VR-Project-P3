@@ -13,7 +13,7 @@ public class Move : MonoBehaviour
 
     private Vector2 move;
 
-    private InputAction moove, rotate; //naam is prachtig
+    private InputAction moove, rotate; 
 
     float time;
 
