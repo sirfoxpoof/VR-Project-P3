@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class Orb : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    private GameObject[] orbPrefabs, pedestalPrefabs;
+    public void CorrectOrb(int orbIndex)
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
