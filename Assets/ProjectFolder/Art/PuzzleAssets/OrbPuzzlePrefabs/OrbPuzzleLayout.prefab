@@ -323,6 +323,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pedestal1
       objectReference: {fileID: 0}
+    - target: {fileID: 3308888470183764067, guid: 34077cc382f78be43a1012f3221d4644,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308888470183764067, guid: 34077cc382f78be43a1012f3221d4644,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308888470183764067, guid: 34077cc382f78be43a1012f3221d4644,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308888470183764067, guid: 34077cc382f78be43a1012f3221d4644,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
