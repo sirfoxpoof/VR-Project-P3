@@ -1150,7 +1150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 3949201600044115145}
   speed: 4
-  sensitivity: 20
+  sensitivity: 30
   rotateUpdate: 0.3
 --- !u!1001 &40241524750538031
 PrefabInstance:
