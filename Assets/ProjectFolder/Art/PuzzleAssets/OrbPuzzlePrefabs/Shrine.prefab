@@ -407,7 +407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasOrb: 0
-  orb: {fileID: 0}
+  orb: {fileID: 8601324741043698498, guid: c2490745bddce3845a83f43598b57186, type: 3}
 --- !u!205 &5729653099081321226
 LODGroup:
   m_ObjectHideFlags: 0
