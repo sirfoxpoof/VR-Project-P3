@@ -5969,6 +5969,51 @@ PrefabInstance:
       propertyPath: mazeDoor
       value: 
       objectReference: {fileID: 2165521225036491965}
+    - target: {fileID: 5288150413656393141, guid: ac8302d56fcdfc0418cdd7c57d971450,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288150413656393141, guid: ac8302d56fcdfc0418cdd7c57d971450,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288150413656393141, guid: ac8302d56fcdfc0418cdd7c57d971450,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288150413656393141, guid: ac8302d56fcdfc0418cdd7c57d971450,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288150413656393141, guid: ac8302d56fcdfc0418cdd7c57d971450,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288150413656393141, guid: ac8302d56fcdfc0418cdd7c57d971450,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288150413656393141, guid: ac8302d56fcdfc0418cdd7c57d971450,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288150413656393141, guid: ac8302d56fcdfc0418cdd7c57d971450,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288150413656393141, guid: ac8302d56fcdfc0418cdd7c57d971450,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6245064196098567082, guid: ac8302d56fcdfc0418cdd7c57d971450,
         type: 3}
       propertyPath: m_Name
