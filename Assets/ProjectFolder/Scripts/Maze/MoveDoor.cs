@@ -5,17 +5,30 @@ using UnityEngine;
 public class MoveDoor : MonoBehaviour
 {
     private bool doorMoved;
-    [SerializeField]
-    private Transform doorDirection;
-    [SerializeField]
-    private float moveSpeed;
+    public Animator lever;
+    public Animator leverOpposite;
+    private Animator _animator;
 
-    public void MoveDoorToDestination()
+    private void Start()
     {
-        transform.position = doorDirection.position * moveSpeed * Time.deltaTime ; 
+        _animator = GetComponent<Animator>();
     }
-    public void MoveDoorBack()
-    {
 
+    public void DoorMove()
+    {
+        if (!doorMoved)
+        {
+            doorMoved = true;
+            lever.SetTrigger("Open");
+            leverOpposite.SetTrigger("Close");
+            _animator.SetTrigger("Open");
+        }
+        else
+        {
+            doorMoved = false;
+            lever.SetTrigger("Close");
+            leverOpposite.SetTrigger("Open");
+            _animator.SetTrigger("Close");
+        }
     }
 }
