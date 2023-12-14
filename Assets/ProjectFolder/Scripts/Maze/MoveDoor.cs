@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MoveDoor : MonoBehaviour
@@ -17,6 +18,11 @@ public class MoveDoor : MonoBehaviour
 
     public void DoorMove()
     {
+        StartCoroutine(WaitTime());
+    }
+
+    IEnumerator WaitTime()
+    {
         if (!doorMoved)
         {
             doorMoved = true;
@@ -33,5 +39,6 @@ public class MoveDoor : MonoBehaviour
             _animator.SetTrigger("Close");
             randomSoundPlayr.PlaySound();
         }
+        yield return new WaitForSeconds(5);
     }
 }
