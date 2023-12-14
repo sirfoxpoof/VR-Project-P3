@@ -8,6 +8,7 @@ public class MoveDoor : MonoBehaviour
     public Animator lever;
     public Animator leverOpposite;
     private Animator _animator;
+    public RandomSoundPlayr randomSoundPlayr;
 
     private void Start()
     {
@@ -22,6 +23,7 @@ public class MoveDoor : MonoBehaviour
             lever.SetTrigger("Open");
             leverOpposite.SetTrigger("Close");
             _animator.SetTrigger("Open");
+            randomSoundPlayr.PlaySound();
         }
         else
         {
@@ -29,6 +31,7 @@ public class MoveDoor : MonoBehaviour
             lever.SetTrigger("Close");
             leverOpposite.SetTrigger("Open");
             _animator.SetTrigger("Close");
+            randomSoundPlayr.PlaySound();
         }
     }
 }
