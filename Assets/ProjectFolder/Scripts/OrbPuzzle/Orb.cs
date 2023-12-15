@@ -8,18 +8,12 @@ public class Orb : MonoBehaviour
     private GameObject[] pedestalPrefabs;
     public GameObject rock;
 
+    public static int pedestalsRight = 0;
     private void Update()
     {
-        for (int i = 0; i < pedestalPrefabs.Length; i++) 
+        if(pedestalsRight == pedestalPrefabs.Length)
         {
-            if (pedestalPrefabs[i].GetComponent<Pedestal>().hasOrb == false)
-            {
-                return;
-            }
-            else
-            {
-                Destroy(rock);
-            }
+            rock.SetActive(false);
         }
     }
 }

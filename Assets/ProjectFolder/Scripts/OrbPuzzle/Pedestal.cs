@@ -22,11 +22,13 @@ public class Pedestal : MonoBehaviour
 
         if(distance < 0.1f)
         {
+            Orb.pedestalsRight++;
             hasOrb = true;
         }
         else
         {
             hasOrb = false;
+            Orb.pedestalsRight--;
         }
     }
 }
