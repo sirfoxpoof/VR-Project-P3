@@ -7,21 +7,21 @@ public class Orb : MonoBehaviour
     [SerializeField]
     private GameObject[] pedestalPrefabs;
     [SerializeField]
-    private bool winOrbPuzzle;
+    //private bool winOrbPuzzle;
+    public GameObject rock;
 
     private void Update()
     {
         for (int i = 0; i < pedestalPrefabs.Length; i++) 
         {
-            if (pedestalPrefabs[i].GetComponent<Pedestal>().hasOrb == true)
+            if (pedestalPrefabs[i].GetComponent<Pedestal>().hasOrb == false)
             {
-                winOrbPuzzle = true;
-            } 
-        }
-
-        if (winOrbPuzzle )
-        {
-            Debug.Log("WHOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOo");
+                return;
+            }
+            else
+            {
+                Destroy(rock);
+            }
         }
     }
 }
