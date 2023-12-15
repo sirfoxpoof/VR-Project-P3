@@ -46,9 +46,9 @@ public class Move : MonoBehaviour
     {
         move = moove.ReadValue<Vector2>();
 
-        Vector3 _moveDirection = (cam.transform.forward * move.y + cam.transform.right * move.x) * Time.deltaTime;
+        Vector3 moveDirection = (cam.transform.forward * move.y + cam.transform.right * move.x) * Time.deltaTime;
 
-        transform.position += _moveDirection * speed;
+        transform.position += moveDirection * speed;
     }
 
     void Rotation(Vector2 _moveV2)

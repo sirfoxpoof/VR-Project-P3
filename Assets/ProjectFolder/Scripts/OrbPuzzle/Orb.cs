@@ -6,8 +6,6 @@ public class Orb : MonoBehaviour
 {
     [SerializeField]
     private GameObject[] pedestalPrefabs;
-    [SerializeField]
-    //private bool winOrbPuzzle;
     public GameObject rock;
 
     private void Update()
