@@ -11,17 +11,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6339818036c75284d93251d667483c52,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.609999
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6339818036c75284d93251d667483c52,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.39495885
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6339818036c75284d93251d667483c52,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.24287987
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6339818036c75284d93251d667483c52,
         type: 3}
@@ -66,7 +66,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6339818036c75284d93251d667483c52,
         type: 3}
       propertyPath: m_Name
-      value: Plant 1 (3)
+      value: Plant 1 texture 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
