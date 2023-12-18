@@ -37,11 +37,11 @@ public class Orb : MonoBehaviour
         //scuffed manier :)
         if(pedestalPrefabs[0].GetComponent<Pedestal>().hasOrb && pedestalPrefabs[1].GetComponent<Pedestal>().hasOrb && pedestalPrefabs[2].GetComponent<Pedestal>().hasOrb && pedestalPrefabs[3].GetComponent<Pedestal>().hasOrb && pedestalPrefabs[4].GetComponent<Pedestal>().hasOrb)
         {
-            rock.SetActive(true);
+            rock.SetActive(false);
         }
         else
         {
-            rock.SetActive(false);
+            rock.SetActive(true);
         }
     }
 }
