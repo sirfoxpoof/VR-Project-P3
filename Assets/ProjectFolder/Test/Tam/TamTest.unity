@@ -186,6 +186,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2Green
       objectReference: {fileID: 0}
+    - target: {fileID: 6390959186877737272, guid: d8c1868dabde1b74f961ccdfbb300fc8,
+        type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.10553463
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -595,6 +600,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 528884606}
     m_Modifications:
+    - target: {fileID: -758909484662748107, guid: 38dd9c896b647d347aefb3a38f4af121,
+        type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.10114451
+      objectReference: {fileID: 0}
     - target: {fileID: 2584061366367852992, guid: 38dd9c896b647d347aefb3a38f4af121,
         type: 3}
       propertyPath: m_Name
@@ -1924,6 +1934,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 528884606}
     m_Modifications:
+    - target: {fileID: 246230397343268826, guid: 39c5307fd73f711479bdab829cf3da20,
+        type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.09797743
+      objectReference: {fileID: 0}
     - target: {fileID: 7255156003841470118, guid: 39c5307fd73f711479bdab829cf3da20,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4714,7 +4729,7 @@ PrefabInstance:
     - target: {fileID: 19432383361536629, guid: b1cc81c651b97334ca403c3ce7af8055,
         type: 3}
       propertyPath: m_LODs.Array.data[0].screenRelativeHeight
-      value: 0.37521362
+      value: 0.12031445
       objectReference: {fileID: 0}
     - target: {fileID: 3881224905779236334, guid: b1cc81c651b97334ca403c3ce7af8055,
         type: 3}
@@ -4790,6 +4805,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 528884606}
     m_Modifications:
+    - target: {fileID: -7720678728106100664, guid: 8a148b0eaf9848a4ba4f539364e11566,
+        type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.099554725
+      objectReference: {fileID: 0}
     - target: {fileID: 4670388347677875594, guid: 8a148b0eaf9848a4ba4f539364e11566,
         type: 3}
       propertyPath: m_Name
@@ -5338,6 +5358,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 528884606}
     m_Modifications:
+    - target: {fileID: -6302105122974110317, guid: 78e3a05f65f00204db9317f7ee7a8c3c,
+        type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.115779735
+      objectReference: {fileID: 0}
+    - target: {fileID: -6302105122974110317, guid: 78e3a05f65f00204db9317f7ee7a8c3c,
+        type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.03701003
+      objectReference: {fileID: 0}
     - target: {fileID: 3781017546245544633, guid: 78e3a05f65f00204db9317f7ee7a8c3c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5745,6 +5775,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree4Green
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726486960413002801, guid: 88cacd7a8a3e8224d95b08e795eb10e0,
+        type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.10436147
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
