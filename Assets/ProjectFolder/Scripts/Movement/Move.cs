@@ -9,7 +9,7 @@ public class Move : MonoBehaviour
 {
     private InputAtionMap inputActionMap;
     public Transform cam;
-    public float speed, sensitivity, rotateUpdate;
+    public float speedAcceleration, speed, sensitivity, rotateUpdate;
 
     private Vector2 move;
 
@@ -17,10 +17,17 @@ public class Move : MonoBehaviour
 
     float time;
 
+    Rigidbody rb;
+
 
     private void Awake()
     {
         inputActionMap = new InputAtionMap();
+    }
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
     }
 
     private void OnEnable()
@@ -39,16 +46,38 @@ public class Move : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Walk();
+        Moove(moove.ReadValue<Vector2>());
         Rotation(rotate.ReadValue<Vector2>());
     }
-    private void Walk()
+
+    //movement
+    void Moove(Vector2 _moveV2)
     {
-        move = moove.ReadValue<Vector2>();
+        if (_moveV2.y != 0 || _moveV2.x != 0)
+        {
+            Vector3 _moveDirection = (transform.forward * _moveV2.y + transform.right * _moveV2.x) * Time.deltaTime;
+            rb.AddForce(_moveDirection * speedAcceleration);
 
-        Vector3 moveDirection = (cam.transform.forward * move.y + cam.transform.right * move.x) * Time.deltaTime;
+            SpeedControle();
+        }
 
-        transform.position += moveDirection * speed;
+        else
+        {
+            rb.velocity = new Vector3(0, 0, 0);
+        }
+
+    }
+
+    //speedcontroler
+    void SpeedControle()
+    {
+        Vector3 _speed = new Vector3(rb.velocity.x, 0, rb.velocity.z);
+
+        if (_speed.magnitude > speed)
+        {
+            Vector3 _speedLimited = _speed.normalized * speed;
+            rb.velocity = new Vector3(_speedLimited.x, rb.velocity.y, _speedLimited.z);
+        }
     }
 
     void Rotation(Vector2 _moveV2)
