@@ -6510,6 +6510,11 @@ PrefabInstance:
       propertyPath: _laserBeamBehavior
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114404121565817838, guid: a9d2de84afb308a4796cc671d3432b4d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 120006741097097638, guid: a9d2de84afb308a4796cc671d3432b4d,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9258,6 +9263,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1605432075995419868, guid: 6cce54309c637244286377233a1544e2,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2803016365054443516, guid: 6cce54309c637244286377233a1544e2,
+        type: 3}
+      propertyPath: speedAcceleration
+      value: 4000
+      objectReference: {fileID: 0}
     - target: {fileID: 6244907546639372176, guid: 6cce54309c637244286377233a1544e2,
         type: 3}
       propertyPath: m_IsActive
@@ -11879,10 +11894,6 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: d2cc9cb6-d26c-4706-8945-d42426de49ad
     m_ActionName: Player/Rotate
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 4c62ee61-7c38-4320-9e61-4652b89ebdf9
-    m_ActionName: Player/Sprint
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
