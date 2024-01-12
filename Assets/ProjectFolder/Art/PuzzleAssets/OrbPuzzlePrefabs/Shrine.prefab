@@ -270,7 +270,6 @@ GameObject:
   - component: {fileID: 8313674830408788693}
   - component: {fileID: 113870580665327292}
   - component: {fileID: 5729653099081321226}
-  - component: {fileID: 2019922678751716636}
   m_Layer: 0
   m_Name: Shrine
   m_TagString: Untagged
@@ -414,27 +413,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 3260374540297339941}
   m_Enabled: 1
---- !u!65 &2019922678751716636
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7921142249895909374}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.964018, y: 0.28383678, z: 3.5630603}
-  m_Center: {x: -0.034967665, y: 0.1417956, z: 0.24182554}
 --- !u!1001 &4251038504035031201
 PrefabInstance:
   m_ObjectHideFlags: 0
