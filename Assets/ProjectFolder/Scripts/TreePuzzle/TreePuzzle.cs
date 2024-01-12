@@ -7,9 +7,14 @@ public class TreePuzzle : MonoBehaviour
     public Transform[] trees;
     public GameObject orb;
 
+    private void Start()
+    {
+        orb.SetActive(false);
+    }
+
     private void Update()
     {
-        if (trees[0].GetComponent<Trees>().hasBark && trees[1].GetComponent<Trees>().hasBark)
+        if (trees[0].GetComponentInChildren<Trees>().hasBark && trees[1].GetComponentInChildren<Trees>().hasBark)
         {
             orb.SetActive(true);
         }

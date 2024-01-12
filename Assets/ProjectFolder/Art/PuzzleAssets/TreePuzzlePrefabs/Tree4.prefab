@@ -29,14 +29,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1510329099688850837}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.6956936, y: 0.0034915954, z: -0.00338158, w: 0.7183223}
-  m_LocalPosition: {x: 0.013, y: 1.723, z: -0.767}
+  m_LocalRotation: {x: 0.015222655, y: 0.71815896, z: -0.69553506, w: 0.015718454}
+  m_LocalPosition: {x: -0.018, y: 1.754, z: 1.005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2522729507778282639}
   m_Father: {fileID: 6313444084693777217}
-  m_LocalEulerAnglesHint: {x: 88.167, y: 0.557, z: 0}
+  m_LocalEulerAnglesHint: {x: 88.167, y: 177.491, z: -0.002}
 --- !u!33 &5235710611841790098
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -280,14 +280,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4936929090663279142}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.000000014901159, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.1999998, z: 0}
+  m_LocalRotation: {x: -0.9119181, y: 0.012727919, z: 0.40960053, w: 0.02169792}
+  m_LocalPosition: {x: -0.02, y: 0.577, z: -0.017}
   m_LocalScale: {x: 0.9328867, y: 5.9925437, z: 0.46990046}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 27395446342373354}
   m_Father: {fileID: 6221256496639206979}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -2.866, y: 228.368, z: -179.688}
 --- !u!114 &5777984251254624745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -529,6 +529,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FairyRing
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516851154287154366, guid: 6daf2be7f84b88845a80cf76d8f2544f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2516851154287154366, guid: 6daf2be7f84b88845a80cf76d8f2544f,
         type: 3}

@@ -11,21 +11,18 @@ public class Trees : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        barkTarget = new Vector3(transform.position.x, transform.position.y + 1.7f, transform.position.z);
+        barkTarget = new Vector3(transform.position.x, transform.position.y + 1.2f, transform.position.z);
     }
 
     // Update is called once per frame
     void Update()
     {
         float distance = Vector3.Distance(barkTarget, treeBark.position);
-
-        if (distance < 0.2f)
+        //Debug.Log(distance);
+        if (distance < 1.3f)
         {
             hasBark = true;
         }
-        else
-        {
-            hasBark = false;
-        }
+       
     }
 }

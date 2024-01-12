@@ -759,6 +759,7 @@ GameObject:
   - component: {fileID: 633825618257761213}
   - component: {fileID: 5448432477058021819}
   - component: {fileID: 1955360278249897225}
+  - component: {fileID: 9110585816647331884}
   m_Layer: 7
   m_Name: TreeBark boom 4
   m_TagString: Untagged
@@ -826,8 +827,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1020,6 +1021,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.43963623, y: 0.117347956, z: 0.4053955}
   m_Center: {x: -0.067043304, y: 0.0695703, z: -0.049785614}
+--- !u!114 &9110585816647331884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8471084900232137871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b39aabc5d6f78488bc1aec7a96619e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8751196571134066793
 GameObject:
   m_ObjectHideFlags: 0

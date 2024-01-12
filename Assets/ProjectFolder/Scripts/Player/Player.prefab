@@ -364,6 +364,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8544619799758597549}
+  - component: {fileID: 6144734205114975143}
   m_Layer: 0
   m_Name: TrackingSpace
   m_TagString: Untagged
@@ -394,6 +395,27 @@ Transform:
   - {fileID: 582803201829151224}
   m_Father: {fileID: 6241858672454405780}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6144734205114975143
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3426557620535916615}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.28373957, y: 0.1478461, z: 0.25989753}
+  m_Center: {x: -0.0075765476, y: -0.02245067, z: -0.061267674}
 --- !u!1 &3440465845121765116
 GameObject:
   m_ObjectHideFlags: 0
@@ -1094,7 +1116,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9150279546386085286}
   serializedVersion: 4
-  m_Mass: 100
+  m_Mass: 10
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1149,6 +1171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 3949201600044115145}
+  speedAcceleration: 4000
   speed: 4
   sensitivity: 30
   rotateUpdate: 0.3
