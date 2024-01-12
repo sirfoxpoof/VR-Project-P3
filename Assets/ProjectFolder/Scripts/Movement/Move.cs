@@ -11,9 +11,7 @@ public class Move : MonoBehaviour
     public Transform cam;
     public float speedAcceleration, speed, sensitivity, rotateUpdate;
 
-    private Vector2 move;
-
-    private InputAction moove, rotate, jump; 
+    private InputAction moove, rotate; 
 
     float time;
 
@@ -36,15 +34,13 @@ public class Move : MonoBehaviour
         moove.Enable();
         rotate = inputActionMap.Player.Rotate;
         rotate.Enable();
-        jump = inputActionMap.Player.Jump;
-        jump.Enable();
+        
     }
 
     private void OnDisable()
     {
         moove.Disable();
         rotate.Disable();
-        jump.Disable();
     }
 
     private void FixedUpdate()
