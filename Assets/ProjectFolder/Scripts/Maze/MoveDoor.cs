@@ -18,11 +18,6 @@ public class MoveDoor : MonoBehaviour
 
     public void DoorMove()
     {
-        StartCoroutine(WaitTime());
-    }
-
-    IEnumerator WaitTime()
-    {
         if (!doorMoved)
         {
             doorMoved = true;
@@ -30,7 +25,7 @@ public class MoveDoor : MonoBehaviour
             leverOpposite.SetTrigger("Close");
             _animator.SetTrigger("Open");
             randomSoundPlayr.PlaySound();
-            yield return new WaitForSeconds(5);
+            //yield return new WaitForSeconds(5);
         }
         else
         {
@@ -39,8 +34,12 @@ public class MoveDoor : MonoBehaviour
             leverOpposite.SetTrigger("Open");
             _animator.SetTrigger("Close");
             randomSoundPlayr.PlaySound();
-            yield return new WaitForSeconds(5);
+            //yield return new WaitForSeconds(5);
         }
-
+        //StartCoroutine(WaitTime());
     }
+
+    /*IEnumerator WaitTime()
+
+    }*/
 }
