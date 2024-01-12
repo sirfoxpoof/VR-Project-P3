@@ -779,7 +779,7 @@ Terrain:
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 80
   m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
+  m_HeightmapPixelError: 1
   m_SplatMapDistance: 1000
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
@@ -1510,7 +1510,7 @@ GameObject:
   - component: {fileID: 597442940}
   - component: {fileID: 597442942}
   m_Layer: 0
-  m_Name: TerrainGroup_0
+  m_Name: foute terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1538,7 +1538,7 @@ Transform:
   m_GameObject: {fileID: 597442939}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.4}
+  m_LocalPosition: {x: -66.4, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1558,8 +1558,8 @@ Transform:
   - {fileID: 156321215}
   - {fileID: 483841702}
   - {fileID: 731081296}
-  - {fileID: 1909587014}
   - {fileID: 88214036}
+  - {fileID: 1909587014}
   - {fileID: 1902691140}
   - {fileID: 916295841}
   - {fileID: 858323456}
@@ -1980,7 +1980,7 @@ GameObject:
   - component: {fileID: 797159465}
   - component: {fileID: 797159464}
   m_Layer: 0
-  m_Name: TerrainGroup_0
+  m_Name: Goeie terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2008,7 +2008,7 @@ Transform:
   m_GameObject: {fileID: 797159463}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.4, y: 0, z: -11.2}
+  m_LocalPosition: {x: -30.6, y: 0, z: -9.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7895,7 +7895,6 @@ SceneRoots:
   - {fileID: 1359562968}
   - {fileID: 1611172375}
   - {fileID: 1873847037}
-  - {fileID: 597442941}
   - {fileID: 396222810}
   - {fileID: 93856256}
   - {fileID: 1994744988}
@@ -7903,4 +7902,5 @@ SceneRoots:
   - {fileID: 1107881397}
   - {fileID: 218493973}
   - {fileID: 1513258773}
+  - {fileID: 597442941}
   - {fileID: 797159465}
