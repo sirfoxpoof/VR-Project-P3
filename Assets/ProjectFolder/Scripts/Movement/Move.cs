@@ -54,7 +54,8 @@ public class Move : MonoBehaviour
     {
         if (_moveV2.y != 0 || _moveV2.x != 0)
         {
-            Vector3 _moveDirection = (transform.forward * _moveV2.y + transform.right * _moveV2.x) * Time.deltaTime;
+            Vector3 _moveDirection = (cam.transform.forward * _moveV2.y + cam.transform.right * _moveV2.x) * Time.deltaTime;
+            _moveDirection.y = 0;
             rb.AddForce(_moveDirection * speedAcceleration);
 
             SpeedControle();
