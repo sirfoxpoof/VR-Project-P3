@@ -5,8 +5,8 @@ OcclusionCullingSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_OcclusionBakeSettings:
-    smallestOccluder: 5
-    smallestHole: 0.25
+    smallestOccluder: 2
+    smallestHole: 1
     backfaceThreshold: 100
   m_SceneGUID: 17d2525cd9b248e4eb59bf5242f12a66
   m_OcclusionCullingData: {fileID: 36300000, guid: 9658be260387f9c42b01d4faeb0e66e1,
@@ -677,7 +677,7 @@ Terrain:
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 80
   m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 1
+  m_HeightmapPixelError: 30
   m_SplatMapDistance: 1000
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
@@ -5820,7 +5820,7 @@ PrefabInstance:
     - target: {fileID: 712544461236840983, guid: 6cce54309c637244286377233a1544e2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.01
+      value: -1.0099999
       objectReference: {fileID: 0}
     - target: {fileID: 712544461236840983, guid: 6cce54309c637244286377233a1544e2,
         type: 3}
