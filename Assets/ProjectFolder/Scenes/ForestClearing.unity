@@ -640,7 +640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37f55338c76a0114c825124a14f571f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationSpeed: 500
+  _rotationSpeed: 50
   _localAxis: {x: 0, y: 1, z: 0}
 --- !u!850595691 &345609616
 LightingSettings:
@@ -989,7 +989,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37f55338c76a0114c825124a14f571f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationSpeed: 500
+  _rotationSpeed: 50
   _localAxis: {x: 0, y: 1, z: 0}
 --- !u!1 &535946324
 GameObject:
@@ -1109,7 +1109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37f55338c76a0114c825124a14f571f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationSpeed: 500
+  _rotationSpeed: 50
   _localAxis: {x: 0, y: 1, z: 0}
 --- !u!1 &587797574
 GameObject:
@@ -4481,7 +4481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37f55338c76a0114c825124a14f571f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationSpeed: 500
+  _rotationSpeed: 50
   _localAxis: {x: 0, y: 1, z: 0}
 --- !u!1001 &1721511206
 PrefabInstance:
@@ -4846,7 +4846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37f55338c76a0114c825124a14f571f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationSpeed: 500
+  _rotationSpeed: 50
   _localAxis: {x: 0, y: 1, z: 0}
 --- !u!1 &2108051866
 GameObject:
@@ -4901,7 +4901,7 @@ PrefabInstance:
     - target: {fileID: 8601324741043698498, guid: 7763255b4566bef449cf45e6722f3367,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.361
+      value: 14.24
       objectReference: {fileID: 0}
     - target: {fileID: 8601324741043698498, guid: 7763255b4566bef449cf45e6722f3367,
         type: 3}
@@ -4911,7 +4911,7 @@ PrefabInstance:
     - target: {fileID: 8601324741043698498, guid: 7763255b4566bef449cf45e6722f3367,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.068
+      value: 7.45
       objectReference: {fileID: 0}
     - target: {fileID: 8601324741043698498, guid: 7763255b4566bef449cf45e6722f3367,
         type: 3}
