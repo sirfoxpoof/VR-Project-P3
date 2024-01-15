@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1773858259847472382}
   - component: {fileID: 1903877863931384881}
   - component: {fileID: 1675078375064611557}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 2899087191112423550}
   - component: {fileID: 5150236989899748706}
   - component: {fileID: 2395958654570343437}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrabPose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 4512687544271509379}
   - component: {fileID: 7406061360483155592}
   - component: {fileID: 4327894283316876006}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrabPose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,7 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3022506695530340715}
   - component: {fileID: 3032417575462080585}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrabInteractable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -342,7 +342,7 @@ GameObject:
   - component: {fileID: 6574400382440853796}
   - component: {fileID: 8117262217917756596}
   - component: {fileID: 6601450664831514433}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 4387945861509417157}
   - component: {fileID: 6166020876257157890}
   - component: {fileID: 8281666004628726242}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -511,7 +511,7 @@ GameObject:
   - component: {fileID: 8471441315963426583}
   - component: {fileID: 2487531408072920846}
   - component: {fileID: 2947176735990393412}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SnapInteractor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -639,7 +639,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3362611106565241319}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -673,7 +673,7 @@ GameObject:
   - component: {fileID: 8505605921790308642}
   - component: {fileID: 2247833801618156921}
   - component: {fileID: 7132840192690786561}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree 4 Bark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1030,7 +1030,7 @@ GameObject:
   m_Component:
   - component: {fileID: 709306020891396300}
   - component: {fileID: 1056287080807527796}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrabInteractable_mirror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1110,7 +1110,7 @@ GameObject:
   - component: {fileID: 9222692605359908852}
   - component: {fileID: 3174378874954867194}
   - component: {fileID: 4318625614254059859}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrabPose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
