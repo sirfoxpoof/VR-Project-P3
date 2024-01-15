@@ -11,7 +11,7 @@ public class Trees : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        barkTarget = new Vector3(transform.position.x, transform.position.y + 1.2f, transform.position.z);
+        barkTarget = new Vector3(transform.position.x, transform.position.y, transform.position.z);
     }
 
     // Update is called once per frame

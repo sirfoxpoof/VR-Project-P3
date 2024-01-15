@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3893774462944006367}
   - component: {fileID: 8850645010800433910}
   - component: {fileID: 6925127707633258241}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 1687116466427180724}
   - component: {fileID: 7531042817616708966}
   - component: {fileID: 4991945124246209198}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,7 +184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4640824429311042690}
   - component: {fileID: 2883786489736460176}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,7 +253,7 @@ GameObject:
   - component: {fileID: 4098975721317059609}
   - component: {fileID: 572400137032237649}
   - component: {fileID: 9123707492887076206}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 8445239625495647868}
   - component: {fileID: 4766397046057458917}
   - component: {fileID: 5604380982130620029}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -427,7 +427,7 @@ GameObject:
   - component: {fileID: 7763708880110665185}
   - component: {fileID: 4398023798148949615}
   - component: {fileID: 2352334418626478064}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -514,7 +514,7 @@ GameObject:
   - component: {fileID: 2301591994213573693}
   - component: {fileID: 2076401343027329907}
   - component: {fileID: 3930602536880037518}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -600,7 +600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6005781636521251964}
   - component: {fileID: 3955971614300859898}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrabInteractable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -679,7 +679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 168775128352683498}
   - component: {fileID: 5686459524015069160}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -747,7 +747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9156606240233993601}
   - component: {fileID: 1001707764123358924}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrabInteractable_mirror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -827,7 +827,7 @@ GameObject:
   - component: {fileID: 3432131043419402903}
   - component: {fileID: 671724091540855464}
   - component: {fileID: 3737836115281142978}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -914,7 +914,7 @@ GameObject:
   - component: {fileID: 556798024475783410}
   - component: {fileID: 3826930474888379657}
   - component: {fileID: 8727062236315974700}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1001,7 +1001,7 @@ GameObject:
   - component: {fileID: 8555177954604432277}
   - component: {fileID: 3348255788536359312}
   - component: {fileID: 8831173212835844712}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1087,7 +1087,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2858140808946911034}
   - component: {fileID: 3075510513779167830}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrabInteractable_mirror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1166,7 +1166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1207390763574685024}
   - component: {fileID: 1403376358780731334}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1234,7 +1234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 79216819075401962}
   - component: {fileID: 4306724079405086398}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrabInteractable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1313,7 +1313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8600367248472607329}
   - component: {fileID: 5674464142848222261}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1381,7 +1381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3048031864432476175}
   - component: {fileID: 718505606263319422}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrabInteractable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1464,7 +1464,7 @@ GameObject:
   - component: {fileID: 2082155130271397363}
   - component: {fileID: 7560998560188363844}
   - component: {fileID: 6485114842079665591}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Plank
   m_TagString: Plank
   m_Icon: {fileID: 0}
@@ -1632,7 +1632,7 @@ GameObject:
   - component: {fileID: 5500774786548818870}
   - component: {fileID: 8166858135238360358}
   - component: {fileID: 4046363326612136416}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1826,7 +1826,7 @@ GameObject:
   - component: {fileID: 1172822069190766361}
   - component: {fileID: 5405915510270887656}
   - component: {fileID: 7962463000495227207}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: simpleGrabCupMesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1950,7 +1950,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2312817086647681632}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1984,7 +1984,7 @@ GameObject:
   - component: {fileID: 6873047745063672030}
   - component: {fileID: 206602020416426571}
   - component: {fileID: 3763271754680167113}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2070,7 +2070,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9191499399333298473}
   - component: {fileID: 1663061837821321614}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrabInteractable_mirror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2151,7 +2151,7 @@ GameObject:
   - component: {fileID: 6607522276574609428}
   - component: {fileID: 5442395152044681421}
   - component: {fileID: 758404031134670934}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2347,7 +2347,7 @@ GameObject:
   - component: {fileID: 9045853053636215259}
   - component: {fileID: 969086295114052907}
   - component: {fileID: 8024798171577830146}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2433,7 +2433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5320955874654275824}
   - component: {fileID: 2684857937843992439}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2501,7 +2501,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2186005871278075009}
   - component: {fileID: 618707004264413484}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGrab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -19,7 +19,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &6221256496639206979
 Transform:
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1510329099688850837}
   serializedVersion: 2
   m_LocalRotation: {x: 0.015222655, y: 0.71815896, z: -0.69553506, w: 0.015718454}
-  m_LocalPosition: {x: -0.018, y: 1.754, z: 1.005}
+  m_LocalPosition: {x: 0.034, y: 1.754, z: 0.593}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -133,8 +133,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.6967305, z: 0.2}
-  m_Center: {x: 0.00000050615307, y: 0.8532482, z: 0.000000011034371}
+  m_Size: {x: 0.2, y: 0.9821336, z: 0.2}
+  m_Center: {x: -0.0000009026501, y: 0.37085715, z: 0.00000012711007}
 --- !u!114 &8831670696586244754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,7 +148,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasBark: 0
-  treeBark: {fileID: 0}
+  treeBark: {fileID: 9102187213235542351, guid: f7b81a697d7611f4ab71fd28565c5dec,
+    type: 3}
 --- !u!1 &4684646531115072315
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,7 +271,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2522729507778282639
 Transform:
@@ -280,9 +281,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4936929090663279142}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.9119181, y: 0.012727919, z: 0.40960053, w: 0.02169792}
-  m_LocalPosition: {x: -0.02, y: 0.577, z: -0.017}
-  m_LocalScale: {x: 0.9328867, y: 5.9925437, z: 0.46990046}
+  m_LocalRotation: {x: -0.9119182, y: 0.012728035, z: 0.40960044, w: 0.021697879}
+  m_LocalPosition: {x: -0.0012988322, y: 0.12774907, z: -0.029142886}
+  m_LocalScale: {x: 0.9328866, y: 5.992543, z: 0.46990043}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 27395446342373354}
@@ -355,7 +356,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6313444084693777217}
-  - component: {fileID: 5687514986299335751}
   m_Layer: 0
   m_Name: Tree4
   m_TagString: Untagged
@@ -380,33 +380,6 @@ Transform:
   - {fileID: 6221256496639206979}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &5687514986299335751
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6689546792507728379}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!1001 &1996012865297256287
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -538,12 +511,12 @@ PrefabInstance:
     - target: {fileID: 2516851154287154366, guid: 6daf2be7f84b88845a80cf76d8f2544f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6845766626119964333, guid: 6daf2be7f84b88845a80cf76d8f2544f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -102,7 +102,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2295772727515100752}
   - component: {fileID: 8754204149387338117}
-  - component: {fileID: 866452776583440528}
   - component: {fileID: 8816791308972455195}
   m_Layer: 0
   m_Name: Tree5Puzzle
@@ -149,20 +148,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.1381524, y: 3.09781, z: 0.8831816}
   m_Center: {x: -0.003970951, y: 1.5501486, z: -0.018669784}
---- !u!114 &866452776583440528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1483911395352341738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de9e1b1844a34e4581122d4e705ed14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasBark: 0
-  treeBark: {fileID: 0}
 --- !u!54 &8816791308972455195
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -292,7 +277,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &3339309890596442459
 Transform:
@@ -421,7 +406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasBark: 0
-  treeBark: {fileID: 0}
+  treeBark: {fileID: 761120458033933063, guid: 9c5a44c0f5551f647bbc23f447c1b13b, type: 3}
 --- !u!1001 &6802843356478551415
 PrefabInstance:
   m_ObjectHideFlags: 0

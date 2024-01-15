@@ -585,20 +585,8 @@ MonoBehaviour:
   _whenSelect:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 373940188806456595}
-        m_TargetAssemblyTypeName: Plank, Assembly-CSharp
-        m_MethodName: PlankPickup
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Plank, Assembly-CSharp
+        m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
@@ -607,25 +595,13 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
   _whenUnselect:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 373940188806456595}
-        m_TargetAssemblyTypeName: Plank, Assembly-CSharp
-        m_MethodName: PlankLetGo
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -450
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Plank, Assembly-CSharp
+        m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
@@ -668,7 +644,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &3362611106565241319
 Transform:
@@ -781,10 +757,8 @@ GameObject:
   - component: {fileID: 844159831186906217}
   - component: {fileID: 2454532973791362576}
   - component: {fileID: 633825618257761213}
-  - component: {fileID: 5448432477058021819}
   - component: {fileID: 1955360278249897225}
-  - component: {fileID: 9110585816647331884}
-  - component: {fileID: 373940188806456595}
+  - component: {fileID: 5448432477058021819}
   m_Layer: 7
   m_Name: TreeBark boom 4
   m_TagString: Untagged
@@ -852,8 +826,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -873,6 +847,27 @@ MonoBehaviour:
   - {fileID: 3032417575462080585}
   - {fileID: 3032417575462080585}
   _data: {fileID: 0}
+--- !u!65 &1955360278249897225
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8471084900232137871}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6000743, y: 0.117347956, z: 0.57037926}
+  m_Center: {x: 0.016020536, y: 0.0695703, z: -0.007880211}
 --- !u!114 &5448432477058021819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1025,51 +1020,6 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!65 &1955360278249897225
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8471084900232137871}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.43963623, y: 0.117347956, z: 0.4053955}
-  m_Center: {x: -0.067043304, y: 0.0695703, z: -0.049785614}
---- !u!114 &9110585816647331884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8471084900232137871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23b39aabc5d6f78488bc1aec7a96619e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &373940188806456595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8471084900232137871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa2a92cd7f3d9cf4f8003c37555db26a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8751196571134066793
 GameObject:
   m_ObjectHideFlags: 0
