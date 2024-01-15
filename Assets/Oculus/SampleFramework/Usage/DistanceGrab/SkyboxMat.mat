@@ -12,7 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _SUNDISK_HIGH_QUALITY
+  - _SUNDISK_SIMPLE
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -62,12 +62,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AtmosphereThickness: 0.92
+    - _AtmosphereThickness: 0.3
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Exposure: 1.76
+    - _Exposure: 1.39
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -78,14 +78,14 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _SunDisk: 2
-    - _SunSize: 0.02
-    - _SunSizeConvergence: 1
+    - _SunDisk: 1
+    - _SunSize: 0.028
+    - _SunSizeConvergence: 6.05
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GroundColor: {r: 0.24613069, g: 0.05409041, b: 0.2679245, a: 1}
-    - _SkyTint: {r: 1, g: 0.50377357, b: 0.88509583, a: 1}
+    - _GroundColor: {r: 0.98823535, g: 0.57254905, b: 0.32941177, a: 1}
+    - _SkyTint: {r: 0.015686275, g: 0.24705884, b: 0.5058824, a: 1}
   m_BuildTextureStacks: []

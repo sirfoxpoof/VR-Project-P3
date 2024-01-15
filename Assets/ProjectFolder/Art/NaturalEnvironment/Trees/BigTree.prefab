@@ -73,6 +73,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5553fe81a4714ff4b942956ffbd4e739,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -157,6 +162,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BigTree
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: acfcda55353614c4fb0cb1a16a528ec1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

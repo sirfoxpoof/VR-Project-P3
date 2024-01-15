@@ -68,6 +68,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boom 3 LOD1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d4212fe03a6a4bc4f9d68d77b1823a3f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -152,6 +157,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree3Green
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 92c23688600841f4fb9aa6669731a62e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -307,6 +317,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boom 3 LOD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9ce0512bf8e44f44eb299e68dfc452f8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
