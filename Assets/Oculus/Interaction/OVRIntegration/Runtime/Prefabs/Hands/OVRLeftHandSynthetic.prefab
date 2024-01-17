@@ -229,6 +229,11 @@ PrefabInstance:
       propertyPath: _skinnedMeshRenderer
       value: 
       objectReference: {fileID: 6215961121876027876}
+    - target: {fileID: 6536860776232889756, guid: 70d02a90551f23042a882cdceeaf8e3a,
+        type: 3}
+      propertyPath: _jointTransforms.Array.data[0]
+      value: 
+      objectReference: {fileID: 8744053583245183601}
     - target: {fileID: 6536860776232889757, guid: 70d02a90551f23042a882cdceeaf8e3a,
         type: 3}
       propertyPath: m_RootOrder
@@ -365,11 +370,47 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1127386673131210391, guid: 442d5b4503ed83c4897ef44659446587,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3506840070725689822}
   m_SourcePrefab: {fileID: 100100000, guid: 442d5b4503ed83c4897ef44659446587, type: 3}
 --- !u!137 &6215961121876027876 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3394194400715651387, guid: 442d5b4503ed83c4897ef44659446587,
+    type: 3}
+  m_PrefabInstance: {fileID: 8744053583244792031}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8573822705864234568 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1127386673131210391, guid: 442d5b4503ed83c4897ef44659446587,
+    type: 3}
+  m_PrefabInstance: {fileID: 8744053583244792031}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3506840070725689822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8573822705864234568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e48d93b64a9ae4f9fd5a728c8f51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _renderers:
+  - {fileID: 6215961121876027876}
+  _vectorProperties:
+  - name: _WristLocalOffset
+    value: {x: 0.018, y: -0.01, z: 0, w: 1}
+  _colorProperties: []
+  _floatProperties: []
+  _updateEveryFrame: 1
+--- !u!4 &8744053583245183601 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400046, guid: 442d5b4503ed83c4897ef44659446587,
     type: 3}
   m_PrefabInstance: {fileID: 8744053583244792031}
   m_PrefabAsset: {fileID: 0}
