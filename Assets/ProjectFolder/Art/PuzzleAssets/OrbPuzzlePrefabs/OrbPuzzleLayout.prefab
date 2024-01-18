@@ -349,6 +349,21 @@ PrefabInstance:
       propertyPath: orb
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5729653099081321226, guid: d950a79762d33aa4aaece2241669b836,
+        type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729653099081321226, guid: d950a79762d33aa4aaece2241669b836,
+        type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729653099081321226, guid: d950a79762d33aa4aaece2241669b836,
+        type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6965753695284542361, guid: d950a79762d33aa4aaece2241669b836,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -424,8 +439,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedComponents:
+    - {fileID: 5729653099081321226, guid: d950a79762d33aa4aaece2241669b836, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 3909073001165432304, guid: d950a79762d33aa4aaece2241669b836, type: 3}
+    - {fileID: 8345775968972257874, guid: d950a79762d33aa4aaece2241669b836, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d950a79762d33aa4aaece2241669b836, type: 3}
