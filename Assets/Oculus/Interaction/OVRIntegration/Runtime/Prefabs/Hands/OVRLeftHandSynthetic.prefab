@@ -223,15 +223,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8592730055715483824}
 <<<<<<< HEAD
-<<<<<<< HEAD
     - target: {fileID: 6536860776232889756, guid: 70d02a90551f23042a882cdceeaf8e3a,
         type: 3}
       propertyPath: _skinnedMeshRenderer
       value: 
       objectReference: {fileID: 1519431722467749525}
 =======
-=======
->>>>>>> parent of 67fae45 (Twighands)
     - target: {fileID: 6536860776232889757, guid: 70d02a90551f23042a882cdceeaf8e3a,
         type: 3}
       propertyPath: m_RootOrder
@@ -290,12 +287,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
 <<<<<<< HEAD
-<<<<<<< HEAD
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-=======
->>>>>>> parent of 67fae45 (Twighands)
   m_SourcePrefab: {fileID: 100100000, guid: 70d02a90551f23042a882cdceeaf8e3a, type: 3}
 --- !u!137 &1519431722467749525 stripped
 SkinnedMeshRenderer:
