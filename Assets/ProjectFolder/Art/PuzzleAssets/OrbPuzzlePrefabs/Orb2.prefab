@@ -502,6 +502,7 @@ GameObject:
   - component: {fileID: 3097323925020596830}
   - component: {fileID: 3616202811122914953}
   - component: {fileID: 8641518035587636170}
+  - component: {fileID: 6761377851680291862}
   m_Layer: 7
   m_Name: Orb2
   m_TagString: Untagged
@@ -862,6 +863,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6761377851680291862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2696705221153364038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fac59ca36976dc14185e49c27c46c8a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectColour: {fileID: 2100000, guid: 424c5e235801b594e8ec859357b426cf, type: 2}
+  normalColour: {fileID: 2100000, guid: f5c8562bb29a6ad48bdc38bc74bd692c, type: 2}
 --- !u!1 &3663334176889154156
 GameObject:
   m_ObjectHideFlags: 0
