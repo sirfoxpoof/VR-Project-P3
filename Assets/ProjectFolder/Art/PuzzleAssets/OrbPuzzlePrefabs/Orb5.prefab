@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 7158228830870198139}
   - component: {fileID: 8639864504738141744}
   - component: {fileID: 3103072857398182555}
+  - component: {fileID: 2265380346856901605}
   m_Layer: 7
   m_Name: Orb5
   m_TagString: Untagged
@@ -499,8 +500,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fac59ca36976dc14185e49c27c46c8a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectColour: {fileID: 2100000, guid: 8da45e9bc2ee6c0409d4a42b9ed56321, type: 2}
-  normalColour: {fileID: 2100000, guid: f5c8562bb29a6ad48bdc38bc74bd692c, type: 2}
+  selectColour: {fileID: 2100000, guid: f5c8562bb29a6ad48bdc38bc74bd692c, type: 2}
+  normalColour: {fileID: 2100000, guid: 8da45e9bc2ee6c0409d4a42b9ed56321, type: 2}
+  wrongColour: {fileID: 2100000, guid: a63c0dc7e909c3a419af10a3ad840f79, type: 2}
+  delay: 0.5
+--- !u!114 &2265380346856901605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2696705221153364038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f8f6e9e6f3e114b9bf9a57c2160615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pointable: {fileID: 0}
+  _whenRelease:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3103072857398182555}
+        m_TargetAssemblyTypeName: OrbSelector, Assembly-CSharp
+        m_MethodName: SelectOrb
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenMove:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenCancel:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2702987654252629645
 GameObject:
   m_ObjectHideFlags: 0

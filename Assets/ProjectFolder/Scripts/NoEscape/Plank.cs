@@ -8,8 +8,9 @@ public class Plank : MonoBehaviour
     {
         transform.GetComponentInChildren<Collider>().isTrigger = true;
     }
-    public void PlankLetGo()
+    public IEnumerator PlankLetGo()
     {
+        yield return new WaitForSeconds(0.2f);
         transform.GetComponentInChildren<Collider>().isTrigger = false;
     }
 }
