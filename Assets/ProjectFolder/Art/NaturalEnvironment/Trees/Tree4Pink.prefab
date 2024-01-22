@@ -90,96 +90,6 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 1074624988552032519}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &5224028124750962283
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 5448051362984544048}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: ec9e0d7591e8e2c4ebdbe3f7d85b5793,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ec9e0d7591e8e2c4ebdbe3f7d85b5793,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ec9e0d7591e8e2c4ebdbe3f7d85b5793,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ec9e0d7591e8e2c4ebdbe3f7d85b5793,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ec9e0d7591e8e2c4ebdbe3f7d85b5793,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ec9e0d7591e8e2c4ebdbe3f7d85b5793,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ec9e0d7591e8e2c4ebdbe3f7d85b5793,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ec9e0d7591e8e2c4ebdbe3f7d85b5793,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ec9e0d7591e8e2c4ebdbe3f7d85b5793,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ec9e0d7591e8e2c4ebdbe3f7d85b5793,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: ec9e0d7591e8e2c4ebdbe3f7d85b5793,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 1a2de668dbe163d4ebccffec68f93244, type: 2}
-    - target: {fileID: 919132149155446097, guid: ec9e0d7591e8e2c4ebdbe3f7d85b5793,
-        type: 3}
-      propertyPath: m_Name
-      value: Boom 4 LOD2
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: ec9e0d7591e8e2c4ebdbe3f7d85b5793,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ec9e0d7591e8e2c4ebdbe3f7d85b5793, type: 3}
---- !u!4 &5761723073444395392 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ec9e0d7591e8e2c4ebdbe3f7d85b5793,
-    type: 3}
-  m_PrefabInstance: {fileID: 5224028124750962283}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &6899211469180420847 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: ec9e0d7591e8e2c4ebdbe3f7d85b5793,
-    type: 3}
-  m_PrefabInstance: {fileID: 5224028124750962283}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5481413618781888731
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -260,10 +170,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 676503969846761196}
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 308808b61f1377b4a992e31beedd4646,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5761723073444395392}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 308808b61f1377b4a992e31beedd4646,
         type: 3}
@@ -315,18 +221,17 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.11
+  - screenRelativeHeight: 0.06534526
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 6615912119648468063}
-  - screenRelativeHeight: 0.099554725
+  - screenRelativeHeight: 0
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 1812769330828701059}
   - screenRelativeHeight: 0
     fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 6899211469180420847}
+    renderers: []
   m_Enabled: 1
 --- !u!4 &5448051362984544048 stripped
 Transform:
