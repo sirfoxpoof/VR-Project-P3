@@ -95,7 +95,6 @@ GameObject:
   - component: {fileID: 3878997313127648521}
   - component: {fileID: 3407248093392639050}
   - component: {fileID: 465011589855922235}
-  - component: {fileID: 484615824794976581}
   m_Layer: 7
   m_Name: Orb4
   m_TagString: Untagged
@@ -471,53 +470,9 @@ MonoBehaviour:
   selectColour: {fileID: 2100000, guid: f5c8562bb29a6ad48bdc38bc74bd692c, type: 2}
   normalColour: {fileID: 2100000, guid: 6a8a4568ecd32cd4cbd50809fb06db87, type: 2}
   wrongColour: {fileID: 2100000, guid: a63c0dc7e909c3a419af10a3ad840f79, type: 2}
-  delay: 0.5
---- !u!114 &484615824794976581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2696705221153364038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2f8f6e9e6f3e114b9bf9a57c2160615, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _pointable: {fileID: 0}
-  _whenRelease:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenHover:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 465011589855922235}
-        m_TargetAssemblyTypeName: OrbSelector, Assembly-CSharp
-        m_MethodName: SelectOrb
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _whenUnhover:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenSelect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenUnselect:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenMove:
-    m_PersistentCalls:
-      m_Calls: []
-  _whenCancel:
-    m_PersistentCalls:
-      m_Calls: []
+  cp: {fileID: 0}
+  orbBoop: {fileID: 0}
+  wrongOrbBoop: {fileID: 0}
 --- !u!1 &3313771437541751479
 GameObject:
   m_ObjectHideFlags: 0

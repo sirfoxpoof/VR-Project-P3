@@ -6,43 +6,29 @@ public class Orb : MonoBehaviour
 {
     [SerializeField]
     private GameObject[] pedestalPrefabs;
-    public GameObject rock;
 
+    public ColourPuzzle colourPuzzle;
     public bool hasAllOrbs = false;
+    bool orbPuzzleDone;
     private void Update()
     {
 
-       /* for(int i = 0; i < pedestalPrefabs.Length; i++)
-        {
-            if (!pedestalPrefabs[i].GetComponent<Pedestal>().hasOrb)
-            {
-                hasAllOrbs = false;
-                break;
-            }
-            else
-            {
-                hasAllOrbs = true;
-            }
-            
-        }
-        if (hasAllOrbs)
-        {
-            rock.SetActive(true);
-        }
-        else
-        {
-            rock.SetActive(false);
-        }*/
-
         //scuffed manier :)
-        if(pedestalPrefabs[0].GetComponent<Pedestal>().hasOrb && pedestalPrefabs[1].GetComponent<Pedestal>().hasOrb && pedestalPrefabs[2].GetComponent<Pedestal>().hasOrb && pedestalPrefabs[3].GetComponent<Pedestal>().hasOrb && pedestalPrefabs[4].GetComponent<Pedestal>().hasOrb)
+        if (pedestalPrefabs[0].GetComponent<Pedestal>().hasOrb && pedestalPrefabs[1].GetComponent<Pedestal>().hasOrb && pedestalPrefabs[2].GetComponent<Pedestal>().hasOrb && pedestalPrefabs[3].GetComponent<Pedestal>().hasOrb && pedestalPrefabs[4].GetComponent<Pedestal>().hasOrb)
         {
-            rock.SetActive(false);
-            hasAllOrbs = true;
+            
+            if (!orbPuzzleDone)
+            {
+                orbPuzzleDone = true;
+                hasAllOrbs = true;
+
+                //play animation
+                colourPuzzle.StartOrbPuzzle();
+            }
         }
         else
         {
-            rock.SetActive(true);
+            
             hasAllOrbs = false;
         }
     }

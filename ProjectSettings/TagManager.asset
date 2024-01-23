@@ -7,6 +7,7 @@ TagManager:
   - SamplesInfoPanel
   - Bush
   - Plank
+  - Hand
   layers:
   - Default
   - TransparentFX

@@ -6,20 +6,28 @@ public class OrbSelector : MonoBehaviour
 {
     [SerializeField] Material selectColour, normalColour, wrongColour;
     public ColourPuzzle cp;
+    public int OrbIndex { get; set; }
     float delay = 0.5f;
-    public AudioSource orbBoop;
+    public AudioSource orbBoop, wrongOrbBoop;
 
-    public void SelectOrb()
+
+    private void OnTriggerEnter(Collider other)
     {
-        cp.PickedOrb();
-        OrbSelected();
+        if (other.CompareTag("Hand"))
+        {
+            cp.PickedOrb(OrbIndex);
+            OrbSelected();
+            Debug.Log("help");
+        }
     }
 
     public void OrbSelected()
     {
-        orbBoop.Play();
+        //orbBoop.Play();
         gameObject.GetComponentInChildren<MeshRenderer>().material = selectColour;
         Invoke("DeselectOrb", delay);
+
+        Debug.Log("help");
     }
 
     void DeselectOrb()
@@ -29,6 +37,7 @@ public class OrbSelector : MonoBehaviour
 
     public void WrongOrb()
     {
+        wrongOrbBoop.Play();
         gameObject.GetComponentInChildren<MeshRenderer>().material = wrongColour;
         Invoke("DeselectOrb", delay);
     }
