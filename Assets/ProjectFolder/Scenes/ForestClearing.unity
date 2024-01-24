@@ -16519,6 +16519,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2900917026683524886, guid: 66290dcc83942854da0550ccfd96d11e,
+        type: 3}
+      propertyPath: orbLight
+      value: 
+      objectReference: {fileID: 804013172}
     - target: {fileID: 3022801839891893929, guid: 66290dcc83942854da0550ccfd96d11e,
         type: 3}
       propertyPath: m_Enabled
@@ -16534,6 +16539,11 @@ PrefabInstance:
       propertyPath: orb
       value: 
       objectReference: {fileID: 1721511207}
+    - target: {fileID: 3422163635905908654, guid: 66290dcc83942854da0550ccfd96d11e,
+        type: 3}
+      propertyPath: orbLight
+      value: 
+      objectReference: {fileID: 600777912}
     - target: {fileID: 3665463731002140992, guid: 66290dcc83942854da0550ccfd96d11e,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16644,6 +16654,11 @@ PrefabInstance:
       propertyPath: orb
       value: 
       objectReference: {fileID: 1028471224}
+    - target: {fileID: 5889192243441256481, guid: 66290dcc83942854da0550ccfd96d11e,
+        type: 3}
+      propertyPath: orbLight
+      value: 
+      objectReference: {fileID: 1343450483}
     - target: {fileID: 5907979589562504890, guid: 66290dcc83942854da0550ccfd96d11e,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16684,6 +16699,11 @@ PrefabInstance:
       propertyPath: orb
       value: 
       objectReference: {fileID: 2111767611}
+    - target: {fileID: 7824140054417020021, guid: 66290dcc83942854da0550ccfd96d11e,
+        type: 3}
+      propertyPath: orbLight
+      value: 
+      objectReference: {fileID: 1633405468}
     - target: {fileID: 7894531454592083541, guid: 66290dcc83942854da0550ccfd96d11e,
         type: 3}
       propertyPath: m_Name
@@ -16699,6 +16719,11 @@ PrefabInstance:
       propertyPath: orb
       value: 
       objectReference: {fileID: 37007167}
+    - target: {fileID: 8272036300769786779, guid: 66290dcc83942854da0550ccfd96d11e,
+        type: 3}
+      propertyPath: orbLight
+      value: 
+      objectReference: {fileID: 1846405565}
     - target: {fileID: 8595174895789628964, guid: 66290dcc83942854da0550ccfd96d11e,
         type: 3}
       propertyPath: m_StaticEditorFlags

@@ -7,7 +7,7 @@ public class Pedestal : MonoBehaviour
 
     public bool hasOrb;
     public Transform orb;
-   
+    public Light orbLight;
 
     private Vector3 orbTarget;
     // Start is called before the first frame update
@@ -24,12 +24,14 @@ public class Pedestal : MonoBehaviour
         if (distance < 0.1f)
         {
             hasOrb = true;
-            orb.GetComponent<Light>().enabled = false;
             orb.GetComponent<AudioSource>().enabled = false;
+            orbLight.enabled = false;
         }
         else
         {
             hasOrb = false;
+            orb.GetComponent<AudioSource>().enabled = true;
+            orbLight.enabled = true;
         }
 
     }
