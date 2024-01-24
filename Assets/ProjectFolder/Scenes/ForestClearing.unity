@@ -1574,6 +1574,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 396222810}
+  - component: {fileID: 396222811}
   m_Layer: 0
   m_Name: --Orbs
   m_TagString: Untagged
@@ -1601,6 +1602,27 @@ Transform:
   - {fileID: 1129289250}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &396222811
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396222809}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7d4e7f43ba3c6ab4c92750fbaf0889ca, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &399511822
 GameObject:
   m_ObjectHideFlags: 0
@@ -12929,6 +12951,7 @@ MonoBehaviour:
   colourOrder: 
   puzzleRange: 0
   orb: {fileID: 0}
+  orbAnimation: {fileID: 0}
 --- !u!1001 &1617519748
 PrefabInstance:
   m_ObjectHideFlags: 0

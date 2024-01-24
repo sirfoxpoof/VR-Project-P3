@@ -19,7 +19,7 @@ public class ColourPuzzle : MonoBehaviour
     float delayTime = 1.3f;
 
     public Orb orb;
-
+    public Animator orbAnimation;
 
 
 
@@ -96,6 +96,7 @@ public class ColourPuzzle : MonoBehaviour
                 rock.SetActive(false);
                 // orbCollider uit
 
+                orbAnimation.SetTrigger("AnimationOn");
                 for (int i = 0; i < orbs.Length; i++)
                 {
                     // orbs turning green
