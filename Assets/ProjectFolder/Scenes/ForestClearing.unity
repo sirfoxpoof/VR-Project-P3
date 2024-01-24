@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.08996984, g: 0.07313865, b: 0.14582017, a: 1}
+  m_IndirectSpecularColor: {r: 0.08890832, g: 0.07298787, b: 0.14499888, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -13051,7 +13051,7 @@ PrefabInstance:
     - target: {fileID: 7255156003841470118, guid: 39c5307fd73f711479bdab829cf3da20,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.350563
+      value: 12.76
       objectReference: {fileID: 0}
     - target: {fileID: 7255156003841470118, guid: 39c5307fd73f711479bdab829cf3da20,
         type: 3}
@@ -13061,7 +13061,7 @@ PrefabInstance:
     - target: {fileID: 7255156003841470118, guid: 39c5307fd73f711479bdab829cf3da20,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 36.17997
+      value: 37.05
       objectReference: {fileID: 0}
     - target: {fileID: 7255156003841470118, guid: 39c5307fd73f711479bdab829cf3da20,
         type: 3}
@@ -16085,6 +16085,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8b555af7db2ed2c4d8706915f6a24913, type: 2}
+    - target: {fileID: 6325481338679120154, guid: 846b8dfa9ab4dc14585629d487da13a3,
+        type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.26383364
+      objectReference: {fileID: 0}
+    - target: {fileID: 6325481338679120154, guid: 846b8dfa9ab4dc14585629d487da13a3,
+        type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7482688436263125607, guid: 846b8dfa9ab4dc14585629d487da13a3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
