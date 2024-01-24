@@ -878,6 +878,7 @@ MonoBehaviour:
   selectColour: {fileID: 2100000, guid: f5c8562bb29a6ad48bdc38bc74bd692c, type: 2}
   normalColour: {fileID: 2100000, guid: 424c5e235801b594e8ec859357b426cf, type: 2}
   wrongColour: {fileID: 2100000, guid: a63c0dc7e909c3a419af10a3ad840f79, type: 2}
+  winColour: {fileID: 2100000, guid: 8da45e9bc2ee6c0409d4a42b9ed56321, type: 2}
   cp: {fileID: 0}
   orbBoop: {fileID: 0}
   wrongOrbBoop: {fileID: 0}

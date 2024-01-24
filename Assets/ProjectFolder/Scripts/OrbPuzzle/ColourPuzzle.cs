@@ -16,21 +16,34 @@ public class ColourPuzzle : MonoBehaviour
     [SerializeField] List<int> colourOrder;
     [SerializeField] int puzzleRange;
     int pickNumber = 0;
-    float delayTime = 1f;
+    float delayTime = 1.3f;
+
+    public Orb orb;
 
 
 
 
     void Start()
     {
-        //ResetGame();
         SetOrbIndex();
-        StartCoroutine("StartGame");
+        for (int i = 0; i < orbs.Length; i++)
+        {
+            orbs[i].GetComponent<OrbSelector>().enabled = false;
+        }
     }
 
     public void StartOrbPuzzle()
     {
-        //StartCoroutine("StartGame");
+        // scripts aan: OrbSelector voor handen
+        for (int i = 0; i < orbs.Length; i++)
+        {
+            orbs[i].GetComponent<OrbSelector>().enabled = true;
+        }
+
+
+        StartCoroutine("StartGame");
+
+        orb.enabled = false;
     }
     
     void SetOrbIndex()
@@ -65,13 +78,13 @@ public class ColourPuzzle : MonoBehaviour
 
     public void PickedOrb(int pick)
     {
-        Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH");
         if(pick == colourOrder[pickNumber])
         {
             Debug.Log("Correct, next");
-            if(pickNumber < 7)
-            {
                 pickNumber++;
+
+            if (pickNumber < 7)
+            {
                 if(pickNumber == colourOrder.Count)
                 {
                     StartCoroutine("StartGame");
@@ -81,19 +94,37 @@ public class ColourPuzzle : MonoBehaviour
             {
                 Debug.Log("YOU WON!");
                 rock.SetActive(false);
+                // orbCollider uit
+
+                for (int i = 0; i < orbs.Length; i++)
+                {
+                    // orbs turning green
+                    orbs[i].GetComponent<OrbSelector>().GameWon();
+                    //orbCollider uit
+
+                    orbs[i].GetComponent<Collider>().enabled = false;
+                }
+                
+
+                //win geluidje
             }
         }
         else
         {
             ResetGame();
 
+            SetOrbIndex();
             StartCoroutine("StartGame");
         }
     }
 
     private void ResetGame()
     {
+        for (int i = 0; i < orbs.Length; i++)
+        {
+            orbs[i].GetComponent<OrbSelector>().WrongOrb();
+        }
+
         colourOrder.Clear();
-        orbs[1].GetComponent<OrbSelector>().WrongOrb();
     }
 }

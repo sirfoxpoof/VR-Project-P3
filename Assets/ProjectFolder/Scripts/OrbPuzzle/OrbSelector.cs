@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class OrbSelector : MonoBehaviour
 {
-    [SerializeField] Material selectColour, normalColour, wrongColour;
+    [SerializeField] Material selectColour, normalColour, wrongColour, winColour;
     public ColourPuzzle cp;
     public int OrbIndex { get; set; }
     float delay = 0.5f;
@@ -15,19 +15,17 @@ public class OrbSelector : MonoBehaviour
     {
         if (other.CompareTag("Hand"))
         {
-            cp.PickedOrb(OrbIndex);
             OrbSelected();
-            Debug.Log("help");
+            cp.PickedOrb(OrbIndex);
         }
     }
 
     public void OrbSelected()
     {
-        //orbBoop.Play();
+        orbBoop.Play();
         gameObject.GetComponentInChildren<MeshRenderer>().material = selectColour;
         Invoke("DeselectOrb", delay);
 
-        Debug.Log("help");
     }
 
     void DeselectOrb()
@@ -40,5 +38,10 @@ public class OrbSelector : MonoBehaviour
         wrongOrbBoop.Play();
         gameObject.GetComponentInChildren<MeshRenderer>().material = wrongColour;
         Invoke("DeselectOrb", delay);
+    }
+
+    public void GameWon()
+    {
+        gameObject.GetComponentInChildren<MeshRenderer>().material = winColour;
     }
 }

@@ -18,7 +18,6 @@ public class Trees : MonoBehaviour
     void Update()
     {
         float distance = Vector3.Distance(barkTarget, treeBark.position);
-        //Debug.Log(distance);
         if (distance < 1.3f)
         {
             hasBark = true;
