@@ -98,17 +98,14 @@ public class ColourPuzzle : MonoBehaviour
             {
                 Debug.Log("YOU WON!");
                 rock.SetActive(false);
+
                 orbAnimation.enabled = true;
-                // orbCollider uit
 
                 orbAnimation.SetTrigger("AnimationOn");
                 for (int i = 0; i < orbs.Length; i++)
                 {
                     // orbs turning green
                     orbs[i].GetComponent<OrbSelector>().GameWon();
-                    //orbCollider uit
-
-                    //orbs[i].GetComponent<Collider>().enabled = false;
                 }
                 
 
