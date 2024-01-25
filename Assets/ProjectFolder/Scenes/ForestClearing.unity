@@ -5851,6 +5851,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 170116572}
+  - {fileID: 1077708401}
   - {fileID: 1379352652}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12761,7 +12762,7 @@ Transform:
   m_LocalScale: {x: 1.1338185, y: 1, z: 8.232544}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1379352652}
+  m_Father: {fileID: 797159465}
   m_LocalEulerAnglesHint: {x: 0, y: 98.709, z: 0}
 --- !u!65 &1077708402
 BoxCollider:
@@ -12782,8 +12783,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.9004505, y: 1, z: 0.25707877}
+  m_Center: {x: -0.049771905, y: 0, z: 0.19683528}
 --- !u!23 &1077708403
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15233,7 +15234,6 @@ Transform:
   m_Children:
   - {fileID: 878518306}
   - {fileID: 1265829498}
-  - {fileID: 1077708401}
   - {fileID: 378290943}
   - {fileID: 789944818}
   - {fileID: 585506812}
