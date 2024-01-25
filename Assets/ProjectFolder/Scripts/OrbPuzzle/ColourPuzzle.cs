@@ -87,7 +87,7 @@ public class ColourPuzzle : MonoBehaviour
             Debug.Log("Correct, next");
                 pickNumber++;
 
-            if (pickNumber < 7)
+            if (pickNumber < 5)
             {
                 if(pickNumber == colourOrder.Count)
                 {
