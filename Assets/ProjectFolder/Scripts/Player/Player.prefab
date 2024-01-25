@@ -2131,6 +2131,11 @@ PrefabInstance:
       propertyPath: _interactors.Array.data[2]
       value: 
       objectReference: {fileID: 4000679255671712242}
+    - target: {fileID: 5679112963167615787, guid: 4c0ee7a14e52ba544b89c2f777670cca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5679112963574900116, guid: 4c0ee7a14e52ba544b89c2f777670cca,
         type: 3}
       propertyPath: _interactors.Array.size
@@ -2210,6 +2215,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: OVRControllerHands
+      objectReference: {fileID: 0}
+    - target: {fileID: 5679112963636671122, guid: 4c0ee7a14e52ba544b89c2f777670cca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7791990265230496836, guid: 4c0ee7a14e52ba544b89c2f777670cca,
         type: 3}
@@ -3027,7 +3037,7 @@ PrefabInstance:
     - target: {fileID: 206931871687596337, guid: 885ecae56b16f13428a67de5ae482a72,
         type: 3}
       propertyPath: m_TagString
-      value: Hand
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2781004746544239580, guid: 885ecae56b16f13428a67de5ae482a72,
         type: 3}
@@ -3711,7 +3721,7 @@ PrefabInstance:
     - target: {fileID: 206931871687596337, guid: 885ecae56b16f13428a67de5ae482a72,
         type: 3}
       propertyPath: m_TagString
-      value: Hand
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2781004746544239580, guid: 885ecae56b16f13428a67de5ae482a72,
         type: 3}

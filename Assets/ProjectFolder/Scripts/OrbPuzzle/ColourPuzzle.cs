@@ -21,16 +21,23 @@ public class ColourPuzzle : MonoBehaviour
     public Orb orb;
     public Animator orbAnimation;
 
+    [Header("Hand")]
+    [SerializeField] GameObject[] hands;
+
 
 
     void Start()
     {
-        orbAnimation.enabled = false;
         SetOrbIndex();
+        orbAnimation.enabled = false;
     }
 
     public void StartOrbPuzzle()
     {
+        hands[0].tag = "Hand";
+        hands[1].tag = "Hand";
+
+
         // scripts aan: OrbSelector voor handen
         for (int i = 0; i < orbs.Length; i++)
         {
