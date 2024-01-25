@@ -12,4 +12,6 @@ public class Plank : MonoBehaviour
     {
         transform.GetComponentInChildren<Collider>().isTrigger = false;
     }
+
+   
 }

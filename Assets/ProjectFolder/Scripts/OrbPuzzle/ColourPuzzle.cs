@@ -25,11 +25,8 @@ public class ColourPuzzle : MonoBehaviour
 
     void Start()
     {
+        orbAnimation.enabled = false;
         SetOrbIndex();
-        for (int i = 0; i < orbs.Length; i++)
-        {
-            orbs[i].GetComponent<OrbSelector>().enabled = false;
-        }
     }
 
     public void StartOrbPuzzle()
@@ -94,6 +91,7 @@ public class ColourPuzzle : MonoBehaviour
             {
                 Debug.Log("YOU WON!");
                 rock.SetActive(false);
+                orbAnimation.enabled = true;
                 // orbCollider uit
 
                 orbAnimation.SetTrigger("AnimationOn");
@@ -103,7 +101,7 @@ public class ColourPuzzle : MonoBehaviour
                     orbs[i].GetComponent<OrbSelector>().GameWon();
                     //orbCollider uit
 
-                    orbs[i].GetComponent<Collider>().enabled = false;
+                    //orbs[i].GetComponent<Collider>().enabled = false;
                 }
                 
 

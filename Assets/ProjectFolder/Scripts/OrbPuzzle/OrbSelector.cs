@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class OrbSelector : MonoBehaviour
 {
     [SerializeField] Material selectColour, normalColour, wrongColour, winColour;
@@ -10,7 +11,10 @@ public class OrbSelector : MonoBehaviour
     float delay = 0.5f;
     public AudioSource orbBoop, wrongOrbBoop;
 
-
+    private void Start()
+    {
+        //skibibapdodap
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Hand"))
