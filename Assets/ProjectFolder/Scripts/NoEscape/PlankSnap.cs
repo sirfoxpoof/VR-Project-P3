@@ -18,7 +18,7 @@ public class PlankSnap : MonoBehaviour
     {
         float distance = Vector3.Distance(plankTarget, plank.position);
 
-        if (distance < 0.5f)
+        if (distance < 1f)
         {
             plankCollider.GetComponentInChildren<Collider>().isTrigger = false;
             fakePlank.SetActive(false);

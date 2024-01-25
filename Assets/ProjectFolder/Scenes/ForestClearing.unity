@@ -17763,8 +17763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f0c44c5a9a8b634aa04795ddf277254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioGEluidjeDingetje: {fileID: 0}
-  SettingsMenu: {fileID: 0}
+  SettingsMenu: {fileID: 118685117}
   PopupAan: 0
 --- !u!1001 &1617519748
 PrefabInstance:
@@ -18292,7 +18291,7 @@ PrefabInstance:
         type: 3}
       propertyPath: orbBoop
       value: 
-      objectReference: {fileID: 1721511209}
+      objectReference: {fileID: 1721511217}
     - target: {fileID: 6515939466909824780, guid: 538a611c2a39fc84b9d2ba7e8d44a86c,
         type: 3}
       propertyPath: wrongOrbBoop

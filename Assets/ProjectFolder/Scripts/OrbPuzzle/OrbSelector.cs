@@ -47,5 +47,6 @@ public class OrbSelector : MonoBehaviour
     public void GameWon()
     {
         gameObject.GetComponentInChildren<MeshRenderer>().material = winColour;
+        Invoke("DeselectOrb", delay);
     }
 }

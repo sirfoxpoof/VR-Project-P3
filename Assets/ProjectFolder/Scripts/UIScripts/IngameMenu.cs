@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 
 public class IngameMenu : MonoBehaviour
 {
-    public AudioSource audioGEluidjeDingetje;
     public GameObject SettingsMenu;
     public bool PopupAan;
 
